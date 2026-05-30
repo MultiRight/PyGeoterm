@@ -93,7 +93,7 @@ while True :
     print()
     print(f"{color_orange}Thank you for using PyGeoterm!{color_reset}")
     print(f"{color_orange}Author https://github.com/MultiRight{color_reset}")
-    user_action = input(f"{color_green}Type 'rest to restart or 'exit' to quit : {color_reset}")
+    user_action = input(f"{color_green}Type 'reset to restart or 'exit' to quit : {color_reset}")
     if user_action == "exit" :
         print("goodbye") 
         break
@@ -101,6 +101,7 @@ while True :
         print("\033c" , end="")
         continue
     else : print(f"{color_red}err103 : your input is invalid please restart the programme{color_reset}")
+        break
 
 
 
