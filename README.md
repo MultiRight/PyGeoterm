@@ -43,6 +43,12 @@ cd PyGeoterm
 
 ---
 
+## Recommendation
+
+PyGeoterm is best run on a Linux system. Linux handles terminal colors and interactive input more reliably than Windows, which may display ANSI color codes incorrectly depending on the terminal used. If you are on Windows, consider using WSL (Windows Subsystem for Linux) for the best experience.
+
+---
+
 ## Usage
 
 Run the script with Python:
@@ -50,6 +56,11 @@ Run the script with Python:
 ```bash
 python PyGeoterm.py
 ```
+
+> **Tip:** If `python` does not work, try:
+> ```bash
+> python3 PyGeoterm.py
+> ```
 
 Once launched, follow the on-screen prompts to select a geometric shape and enter the required dimensions. The program will output the calculated area.
 
