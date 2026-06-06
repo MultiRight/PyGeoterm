@@ -32,7 +32,7 @@ Source: https://github.com/MultiRight/PyGeoterm/tree/0b4884e5112a6012902a5563ad8
 - Geometric menu redesigned as an ASCII table for better readability
 - Comments added to separate sections of the code
 - `pow()` replaced with direct arithmetic expressions
-- Author link added to session footer
+
 
 ### Notes
 - Core loop structure remained `while True` with `break` and `continue`
