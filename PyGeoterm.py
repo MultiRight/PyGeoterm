@@ -49,7 +49,7 @@ while running :
         print()
         print(f"{color_orange}err101 : Invalid input. (Letters/symbols entered instead of numbers).{color_reset}")
         print(f"{color_orange}err102 : Invalid shape. (Choice is not in the geometric menu).{color_reset}")
-        print(f"{color_orange}err103 : Invalid action. (Choice is not 'reset' or 'exit'){color_reset}")
+        print(f"{color_orange}err103 : Invalid action. (Choice is not 'r' or 'q'){color_reset}")
 
 # geometric menu
 
@@ -93,7 +93,7 @@ while running :
                         break
 
                     except ValueError :
-                        print(f"{color_red}err101 : your input is invalid please restart the programme{color_reset}")
+                        print(f"{color_red}err101 : your input is invalid please try again{color_reset}")
                         print()
 
             # Calculate the area of a Rectangle
@@ -215,7 +215,7 @@ while running :
                         print(f"{color_red}err101 : your input is invalid please try again{color_reset}")
                         print()
             else :
-                print(f"{color_red}err102 : your input is invalid please restart the programme{color_reset}")
+                print(f"{color_red}err102 : your input is invalid please try again{color_reset}")
         print()
 
 # ---------------------------------------------------------------------------
