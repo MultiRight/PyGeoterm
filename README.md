@@ -45,7 +45,7 @@ cd PyGeoterm
 
 ## Recommendation
 
-PyGeoterm is best run on a Linux system. Linux handles terminal colors and interactive input more reliably than Windows, which may display ANSI color codes incorrectly depending on the terminal used. If you are on Windows, consider using WSL (Windows Subsystem for Linux) for the best experience.
+PyGeoterm is best run on a Linux system. Linux handles terminal colors and interactive input more reliably than Windows, which may display ANSI color codes incorrectly depending on the terminal used. If you are on Windows, consider using WSL (Windows Subsystem for Linux) Or use the (Windows Terminal) application for the best experience.
 
 ---
 
