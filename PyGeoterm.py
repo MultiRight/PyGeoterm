@@ -69,8 +69,11 @@ while running :
         print()
 
         while running :
-
+            # user choose
             user_choose = input(f"{color_pink}Enter the number of the shape to calculate its area : {color_reset}")
+            print()
+            # unit question
+            unit = input(f"{color_pink}Enter a metric unit (cm, km, or m) : {color_reset}")
             print()
 
         # ---------------------------------------------------------------------------
@@ -88,7 +91,7 @@ while running :
 
                         print()
 
-                        print(f"{color_green}The area of The square is : {area}²{color_reset}")
+                        print(f"{color_green}The area of The square is : {area}{unit}²{color_reset}")
 
                         running = False
                         break
@@ -108,7 +111,7 @@ while running :
 
                         print()
 
-                        print(f"{color_green}The area of The rectangle is : {area}²{color_reset}")
+                        print(f"{color_green}The area of The rectangle is : {area}{unit}²{color_reset}")
 
                         running = False
                         break
@@ -128,7 +131,7 @@ while running :
 
                         print()
 
-                        print(f"{color_green}The area of The triangle is : {area}²{color_reset}")
+                        print(f"{color_green}The area of The triangle is : {area}{unit}²{color_reset}")
 
                         running = False
                         break
@@ -146,7 +149,7 @@ while running :
 
                         print()
 
-                        print(f"{color_green}The area of The circle is : {area}²{color_reset}")
+                        print(f"{color_green}The area of The circle is : {area}{unit}²{color_reset}")
 
                         running = False
                         break
@@ -166,7 +169,7 @@ while running :
 
                         print()
 
-                        print(f"{color_green}The area of The parallelogram is  : {area}²{color_reset}")
+                        print(f"{color_green}The area of The parallelogram is  : {area}{unit}²{color_reset}")
 
                         running = False
                         break
@@ -187,7 +190,7 @@ while running :
 
                         print()
 
-                        print(f"{color_green}The area of The trapezoid  is  : {area}²{color_reset}")
+                        print(f"{color_green}The area of The trapezoid  is  : {area}{unit}²{color_reset}")
 
                         running = False
                         break
@@ -207,7 +210,7 @@ while running :
 
                         print()
 
-                        print(f"{color_green}The area of The Rhombus  is  : {area}²{color_reset}")
+                        print(f"{color_green}The area of The Rhombus  is  : {area}{unit}²{color_reset}")
 
                         running = False
                         break
@@ -234,7 +237,7 @@ while running :
 
         if user_action == "q" :
             print()
-            print("goodbye")
+            print(f"{color_orange}goodbye{color_reset}")
             running = False
             break
 
