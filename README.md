@@ -80,7 +80,7 @@ At the end of each session, type `r` to restart or `q` to quit the program.
 |--------|--------------------------------------------------------------------|
 | err101 | Invalid input — letters or symbols were entered instead of numbers |
 | err102 | Invalid shape — the selected choice is not in the geometric menu   |
-| err103 | Invalid action — the input is neither `reset` nor `exit`           |
+| err103 | Invalid action — the input is neither `r` or `q`                   |
 
 ---
 
