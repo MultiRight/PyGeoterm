@@ -179,7 +179,7 @@ while running :
                 while True :
                     try :
                         base1 = float(input(f"{color_light_blue}Enter the first base of the trapezoid : {color_reset}"))
-                        base2 = float(input(f"{color_light_blue}Enter the seconde base of the trapezoid : {color_reset}"))
+                        base2 = float(input(f"{color_light_blue}Enter the second base of the trapezoid : {color_reset}"))
                         height = float(input(f"{color_light_blue}Enter the height of the trapezoid : {color_reset}"))
 
                         area = 0.5 * (base1 + base2 ) * height
