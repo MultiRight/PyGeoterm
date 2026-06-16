@@ -82,7 +82,7 @@ while uprunning :
                     user_choose = input(f"{color_pink}Enter the number of the shape to calculate its area : {color_reset}")
                     print()
                     # unit question
-                    unit = input(f"{color_pink}Enter a metric unit (cm, km, or m) : {color_reset}")
+                    unit = input(f"{color_pink}Enter a metric unit (cm, km, or m...) : {color_reset}")
                     print()
         
                 # ---------------------------------------------------------------------------
