@@ -12,13 +12,14 @@ PyGeoterm is a lightweight command-line tool that allows users to calculate the 
 
 ## Features
 
-- Calculate the area of six geometric shapes:
+- Calculate the area of seven geometric shapes:
   - Square
   - Rectangle
   - Triangle
   - Circle
   - Parallelogram
   - Trapezoid
+  - Rhombus
 - Color-coded terminal output for better readability
 - Built-in error handling with descriptive error codes
 - Interactive session with reset and exit options
