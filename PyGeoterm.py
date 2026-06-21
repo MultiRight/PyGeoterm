@@ -28,7 +28,9 @@ color_reset = "\033[0m"
 # Program lifecycle flag — controls the main loop execution
 
 running = True
-uprunning =True
+uprunning = True
+run_more = True
+
 # ---------------------------------------------------------------------------
 
 
@@ -39,13 +41,15 @@ while uprunning :
     
     try: 
     
-        while running :
+        while run_more :
+
+            print("\033c" , end="")
         
             # Welcome to the user
             print(f"{color_light_blue}====================Welcome to PyGeoterm===================={color_reset}")
             print()
         
-        # Holds the active selection from the main menu
+            # Holds the active selection from the main menu
         
             user_q = input(f"{color_light_blue}Press enter to start use PyGeoterm or enter '--help' to help for use PyGeoterm : {color_reset}")
             print()
@@ -63,9 +67,15 @@ while uprunning :
                 print(f"{color_orange}err103 : Invalid action. (Choice is not 'r' or 'q'){color_reset}")
                 print()
         
-        # geometric menu
-        
+            
             else :
+                # unit question
+                unit = input(f"{color_pink}Enter a unit of measurement (cm, km, or m...) : {color_reset}")
+                print()
+                
+
+                # geometric menu
+                    
                 print()
                 print(f"{color_light_blue}Choose a geometric shape to calculate its area : {color_reset}")
                 print()
@@ -80,12 +90,11 @@ while uprunning :
                 print()
         
                 while running :
+                    
                     # user choose
                     user_choose = input(f"{color_pink}Enter the number of the shape to calculate its area : {color_reset}")
                     print()
-                    # unit question
-                    unit = input(f"{color_pink}Enter a metric unit (cm, km, or m...) : {color_reset}")
-                    print()
+                    
         
                 # ---------------------------------------------------------------------------
                 # DECISION ENGINE : Handle geometric calculations based on menu choice
@@ -123,7 +132,7 @@ while uprunning :
                                 print()
         
                                 print(f"{color_green}The area of The rectangle is : {area}{unit}²{color_reset}")
-        
+            
                                 running = False
                                 break
         
@@ -250,6 +259,8 @@ while uprunning :
                     print()
                     print(f"{color_orange}goodbye{color_reset}")
                     running = False
+                    run_more = False
+                    uprunning = False
                     break
         
         
@@ -267,12 +278,13 @@ while uprunning :
     except KeyboardInterrupt :
 
             
-        print()
+        print("\n")
 
-        print(f"{color_orange}Thank you for using RAM-monitor!{color_reset}")
+        print(f"{color_orange}Thank you for using PyGeoterm!{color_reset}")
         print(f"{color_orange}Author : https://github.com/MultiRight{color_reset}")
+        print()
+        print(f"{color_orange}goodbye{color_reset}")
            
-        running = False
-        uprunning = False
+        
         
         break
