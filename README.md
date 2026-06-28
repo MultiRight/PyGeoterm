@@ -88,7 +88,7 @@ This project is licensed under the **GNU General Public License v3.0**.
 ## Author
 
 **MultiRight**
-GitHub: [https://github.com/MultiRight](https://github.com/MultiRight)
+[https://github.com/MultiRight](https://github.com/MultiRight)
 
 ---
 
