@@ -1,4 +1,4 @@
-# PyGeoterm
+# pygeoterm
 
 A terminal-based geometric area calculator written in Python.
 
@@ -6,7 +6,7 @@ A terminal-based geometric area calculator written in Python.
 
 ## Description
 
-PyGeoterm is a lightweight command-line tool that allows users to calculate the area of common geometric shapes directly from the terminal. It is designed to be simple, interactive, and accessible to anyone who needs quick geometric computations without relying on external tools or graphical interfaces.
+pygeoterm is a lightweight command-line tool that allows users to calculate the area of common geometric shapes directly from the terminal. It is designed to be simple, interactive, and accessible to anyone who needs quick geometric computations without relying on external tools or graphical interfaces.
 
 ---
 
@@ -38,8 +38,8 @@ PyGeoterm is a lightweight command-line tool that allows users to calculate the 
 Clone the repository:
 
 ```bash
-git clone https://github.com/MultiRight/PyGeoterm.git
-cd PyGeoterm
+git clone https://github.com/MultiRight/pygeoterm.git
+cd pygeoterm
 ```
 
 ---
@@ -49,12 +49,12 @@ cd PyGeoterm
 Run the script with Python:
 
 ```bash
-python PyGeoterm.py
+python pygeoterm.py
 ```
 
 > **Tip:** If `python` does not work, try:
 > ```bash
-> python3 PyGeoterm.py
+> python3 pygeoterm.py
 > ```
 
 Once launched, follow the on-screen prompts to select a geometric shape and enter the required dimensions. The program will output the calculated area.
