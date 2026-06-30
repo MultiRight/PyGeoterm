@@ -6,6 +6,7 @@ A terminal-based geometric area calculator written in Python.
 
 ## Description
 
+
 PyGeoterm is a lightweight command-line tool that allows users to calculate the area of common geometric shapes directly from the terminal. It is designed to be simple, interactive, and accessible to anyone who needs quick geometric computations without relying on external tools or graphical interfaces.
 
 ---
